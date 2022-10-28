@@ -29,3 +29,17 @@ After this step, the installation is the same for both installation sources.
 - Quit, open the file again, and do `:TSInstall X` to install the parser for the languages that you want, with "X" being the name of the language (for example, `:TSInstall cpp` will install the C++ parser). This is just basically a richer syntax highlighting than Neovim offers by default.
 
 And you're done!
+
+# Installed Neovim Plugins
+
+- [`42header`](https://github.com/42Paris/42header) - Header used by 42 School's students.
+- [`vim-airline`](https://github.com/vim-airline/vim-airline) - Airline for Vim/Neovim.
+- [`vim-airline-themes`](https://github.com/vim-airline/vim-airline-themes) - Themes for `vim-airline`.
+- [`neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) - File tree for Neovim.
+- [`nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons) - Icons for Neovim (used in `neo-tree.nvim`). Needs a [Nerd Font](https://www.nerdfonts.com/) installed to work!!!
+- [`vim-devicons`](https://github.com/ryanoasis/vim-devicons) - Icons for Vim (used in `vim-airline`). Again, needs a Nerd Font to work.
+- [`nvim-autopairs`](https://github.com/windwp/nvim-autopairs) - Autopairing for Neovim.
+- [`indent-blankline.nvim`](https://github.com/lukas-reineke/indent-blankline.nvim) - Shows an indentation line to make it look cleaner.
+- [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting for Neovim.
+
+Also includes the [Dracula Vim theme](https://github.com/dracula/vim), and some other plugins not mentioned that might be purged in the next commits, feel free to remove them and see if you have any issues!
