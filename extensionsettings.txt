@@ -1,0 +1,30 @@
+Tray Icons Reloaded:			(Default)
+Coverflow Alt-Tab:				(Default)
+User Themes:					(Default)
+Shortcuts:						OFF
+Desktop Icons:					OFF
+
+Arc Menu:
+	- Hotkey:					Left Super Key
+	- Menu Height:	
+		* c1:					1056
+		* c2:					(to	be updated)
+	- Menu Layout:				Mint
+	- Button:					".icons/deltarune.png"
+	- Icon size:				38 px
+
+Compiz windows effect:
+	- Friction:					4.5
+	- Spring:					7.9
+	- Speedup Factor:			9.8
+	- Mass:						61
+	- X Tiles:					9
+	- Y Tiles:					8
+	- Maximize effect:			ON
+
+Dash to Panel:
+	- Taskbar position:			Center, fixed in middle of monitor
+	- Running indicator:
+		* Focused app:			Metro
+		* Unfocused app:		Dashes
+	- Show Applications button:	OFF
