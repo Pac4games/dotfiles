@@ -1,4 +1,4 @@
-# My dotfiles
+# My GNOME dotfiles
 My dotfiles for my GNOME coding environment.
 
 Dependecies list:
