@@ -8,7 +8,7 @@ Arc Menu:
 	- Hotkey:					Left Super Key
 	- Menu Height:	
 		* c1:					1056
-		* c2:					(to	be updated)
+		* c2:					527
 	- Menu Layout:				Mint
 	- Button:					".icons/deltarune.png"
 	- Icon size:				38 px
