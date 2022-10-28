@@ -1,4 +1,5 @@
-# dotfiles
+# My i3 dotfiles
+
 My i3wm dotfiles for my current Void Linux setup.
 
 Here are some dependencies/packages that I like to have available:
