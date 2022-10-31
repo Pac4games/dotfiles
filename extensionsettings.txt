@@ -22,9 +22,4 @@ Compiz windows effect:
 	- Y Tiles:					8
 	- Maximize effect:			ON
 
-Dash to Panel:
-	- Taskbar position:			Center, fixed in middle of monitor
-	- Running indicator:
-		* Focused app:			Metro
-		* Unfocused app:		Dashes
-	- Show Applications button:	OFF
+Dash to Panel:					(Import "dash_to_panel_config")
