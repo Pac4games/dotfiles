@@ -9,7 +9,7 @@ Arc Menu:
 	- Menu Height:	
 		* c1:					1056
 		* c2:					527
-	- Menu Layout:				Mint
+	- Menu Layout:				Whisker
 	- Button:					".icons/deltarune.png"
 	- Icon size:				38 px
 
