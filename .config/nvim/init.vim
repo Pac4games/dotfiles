@@ -21,6 +21,7 @@ Plug 'windwp/nvim-autopairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'p00f/nvim-ts-rainbow'
 
 call plug#end()
 
@@ -43,6 +44,9 @@ require("neo-tree").setup {
 }
 require'nvim-treesitter.configs'.setup {
 	highlight = {
+		enable = true
+	},
+	rainbow = {
 		enable = true
 	}
 }
