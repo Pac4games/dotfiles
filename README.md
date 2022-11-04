@@ -45,5 +45,6 @@ And you're done!
 - [`nvim-autopairs`](https://github.com/windwp/nvim-autopairs) - Autopairing for Neovim.
 - [`indent-blankline.nvim`](https://github.com/lukas-reineke/indent-blankline.nvim) - Shows an indentation line to make it look cleaner.
 - [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting for Neovim.
+- [`nvim-ts-rainbow`](https://github.com/p00f/nvim-ts-rainbow) - Rainbow paratheses addon for treesitter.
 
 Also includes the [Dracula Vim theme](https://github.com/dracula/vim), and some other plugins not mentioned that might be purged in the next commits, feel free to remove them and see if you have any issues!
