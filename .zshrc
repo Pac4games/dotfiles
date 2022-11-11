@@ -104,5 +104,6 @@ alias gccmoul="gcc -Wall -Wextra -Werror"
 alias nvim="flatpak run io.neovim.nvim"
 alias nv=nvim
 alias neofetch="bash ~/.myscripts/neofetch --ascii ~/.config/42ascii"
+alias sl="/nfs/homes/paugonca/.myscripts/sl"
 
 neofetch
