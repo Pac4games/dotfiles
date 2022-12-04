@@ -1,7 +1,7 @@
 # Script made from scratch by Diogo13Antunes, check him out on GitHub!
 # https://github.com/Diogo13Antunes
 
-norminette | egrep -B1 'Error|Warning' >check_norm
+norminette | grep -B1 -E 'Error|Warning' >check_norm
 
 printf "\e[1;33m[NORMINETTE]: \e[0m"
 
