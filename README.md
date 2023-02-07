@@ -5,7 +5,9 @@ Dependecies list:
 ```
 neovim zsh oh-my-zsh curl
 ```
-# Preview
+# Previews
+Dracula:
+
 ![00](https://user-images.githubusercontent.com/96696321/198705771-7aaf9c62-c764-4094-96ce-5aa2de5a2e70.png)
 ![Screenshot from 2022-10-28 19-15-36](https://user-images.githubusercontent.com/96696321/198706077-ba273ea2-52b4-4238-828b-ef48637496b5.png)
 ![Screenshot from 2022-10-28 19-17-49](https://user-images.githubusercontent.com/96696321/198705940-5989bf20-9f51-4926-92d6-1582e986a6b8.png)
