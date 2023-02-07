@@ -28,7 +28,7 @@ call plug#end()
 let g:user42 = 'paugonca'
 let g:mail42 = 'paugonca@student.42lisboa.com'
 let g:airline_theme='distinguished'
-:colorscheme nightfox
+:colorscheme duskfox
 set termguicolors
 hi Normal guibg=NONE ctermbg=NONE
 let &fcs='eob: '
