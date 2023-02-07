@@ -19,7 +19,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'windwp/nvim-autopairs'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'EdenEast/nightfox.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 
@@ -27,8 +27,8 @@ call plug#end()
 
 let g:user42 = 'paugonca'
 let g:mail42 = 'paugonca@student.42lisboa.com'
-let g:airline_theme='deus'
-:colorscheme dracula
+let g:airline_theme='distinguished'
+:colorscheme nightfox
 set termguicolors
 hi Normal guibg=NONE ctermbg=NONE
 let &fcs='eob: '
