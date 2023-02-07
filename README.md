@@ -11,6 +11,13 @@ Dracula:
 ![00](https://user-images.githubusercontent.com/96696321/198705771-7aaf9c62-c764-4094-96ce-5aa2de5a2e70.png)
 ![Screenshot from 2022-10-28 19-15-36](https://user-images.githubusercontent.com/96696321/198706077-ba273ea2-52b4-4238-828b-ef48637496b5.png)
 ![Screenshot from 2022-10-28 19-17-49](https://user-images.githubusercontent.com/96696321/198705940-5989bf20-9f51-4926-92d6-1582e986a6b8.png)
+
+Nightfox:
+
+![Screenshot from 2023-02-07 11-56-04](https://user-images.githubusercontent.com/96696321/217240515-d285a65b-1d88-4bf0-8acf-50c291266a90.png)
+![Screenshot from 2023-02-07 11-59-21](https://user-images.githubusercontent.com/96696321/217240551-60ea1d15-3a3d-4c4e-9cd4-120d315f0feb.png)
+![Screenshot from 2023-02-07 12-00-56](https://user-images.githubusercontent.com/96696321/217240575-fa3cc41a-b90a-4b2f-b8a0-d93061473f9f.png)
+
 # Neovim config installation
 If you are using Neovim as a regular package:
 - Install the `vim-plug` plugin manager;
@@ -49,4 +56,4 @@ And you're done!
 - [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting for Neovim.
 - [`nvim-ts-rainbow`](https://github.com/p00f/nvim-ts-rainbow) - Rainbow paratheses addon for treesitter.
 
-Also includes the [Dracula Vim theme](https://github.com/dracula/vim), and some other plugins not mentioned that might be purged in the next commits, feel free to remove them and see if you have any issues!
+Also includes the [Nightfox Nvim theme](https://github.com/EdenEast/nightfox.nvim), and some other plugins not mentioned that might be purged in the next commits, feel free to remove them and see if you have any issues!
