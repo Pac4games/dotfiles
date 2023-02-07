@@ -1,0 +1,32 @@
+[global_config]
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#569fba"
+  title_transmit_bg_color = "#27253f"
+  title_inactive_fg_color = "#a6a4ba"
+  title_inactive_bg_color = "#222034"
+  inactive_color_offset = 0.61
+  suppress_multiple_term_dialog = True
+  title_use_system_font = False
+[keybindings]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#282a36"
+    background_darkness = 0.93
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#f8f8f2"
+    font = TerminessTTF NF Medium 12
+    foreground_color = "#f8f8f2"
+    use_system_font = False
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+      profile = default
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
