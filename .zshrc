@@ -10,6 +10,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="tjkirch"
 
+# Path for norminette (only necessary on non-42 computers)
+# export PATH=$PATH:/home/<user>/.local/bin/
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -99,11 +102,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias norm="bash ~/.myscripts/norm.sh"
 alias gccmoul="gcc -Wall -Wextra -Werror"
-alias nvim="flatpak run io.neovim.nvim"
-alias nv=nvim
-alias neofetch="bash ~/.myscripts/neofetch --ascii ~/.config/42ascii"
-alias sl="/nfs/homes/paugonca/.myscripts/sl"
+alias ccmoul="cc -Wall -Wextra -Werror"
+alias norm="bash ~/.myscripts/norm.sh"
+alias nv="nvim"
+alias dc="echo 'Are you trying to open Discord, or just typing cd too fast?'"
+alias sus="echo 'amogus? ඞ'"
 
 neofetch
+
+alias francinette=/home/pac4/francinette/tester.sh
+
+alias paco=/home/pac4/francinette/tester.sh
