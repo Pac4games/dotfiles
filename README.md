@@ -30,7 +30,7 @@ And you're done!
 
 # Installed Neovim Plugins
 
-- [`Packer`](https://github.com/wbthomason/packer.nvim) - plugin manager.
+- [`Packer`](https://github.com/wbthomason/packer.nvim) - Plugin manager.
 - [`42header`](https://github.com/42Paris/42header) - Header used by 42 School's students.
 - [`neo-tree.nvim`](https://github.com/nvim-neo-tree/neo-tree.nvim) - File tree for Neovim.
 - [`nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons) - Icons for Neovim (used in `neo-tree.nvim`). Needs a [Nerd Font](https://www.nerdfonts.com/) installed to work!!!
@@ -42,7 +42,7 @@ And you're done!
 - [`lualine.nvim`](https://github.com/nvim-lualine/lualine.nvim) - Very customizable airline.
 - [`telescope.nivm`](https://github.com/nvim-telescope/telescope.nvim) - File finder (I don't personally use it but it might suit your taste).
 - [`mason.nvim`](https://github.com/williamboman) - LSP package manager.
-- [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp) - autocompletion for Neovim.
+- [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp) - Autocompletion for Neovim.
 - [`presence.nvim`](https://github.com/andweeb/presence.nvim) - Discord rich presence.
 
 Some other dependencies are included in order to make this configuration properly work.
