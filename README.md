@@ -19,6 +19,8 @@ Nightfox:
 ![Screenshot from 2023-02-07 12-00-56](https://user-images.githubusercontent.com/96696321/217240575-fa3cc41a-b90a-4b2f-b8a0-d93061473f9f.png)
 
 # Neovim config installation
+Please note that due to some changes in the plugins themselves this config currently works better with Neovim 0.8.3.
+
 As of the last rewrite, the "Plug" plugin manager has been replaced with "Packer" for more efficient and clean plugin management, and as a result there is no need to manually install the plugin manager since it will be installed right after you open Neovim with this config for the first time.
 
 After Packer finished its installation, follow these steps:
