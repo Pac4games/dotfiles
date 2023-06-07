@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias norm="bash ~/.myscripts/norm.sh"
 alias gccmoul="gcc -Wall -Wextra -Werror"
 alias ccmoul="cc -Wall -Wextra -Werror"
-alias nvim="./Applications/nvim.appimage"
+alias nvim="~/Applications/nvim.appimage"
 alias nv=nvim
 alias neofetch="bash ~/.myscripts/neofetch --ascii ~/.config/42ascii"
 alias sl="/nfs/homes/paugonca/.myscripts/sl"
