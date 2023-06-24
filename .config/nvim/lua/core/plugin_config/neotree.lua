@@ -3,6 +3,6 @@ require("neo-tree").setup {
 		window = {
 			width = 30
 		},
-		use_libuv_file_watcher=true,
+		use_libuv_file_watcher=false,
 	},
 }

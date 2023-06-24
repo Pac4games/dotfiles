@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/pac4/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -168,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
+  },
+  ["py_lsp.nvim"] = {
+    loaded = true,
+    path = "/home/pac4/.local/share/nvim/site/pack/packer/start/py_lsp.nvim",
+    url = "https://github.com/HallerPatrick/py_lsp.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
