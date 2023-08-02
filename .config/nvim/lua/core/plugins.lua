@@ -19,7 +19,7 @@ return require('packer').startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'windwp/nvim-autopairs'
   use 'lukas-reineke/indent-blankline.nvim'
-  use 'EdenEast/nightfox.nvim'
+  use 'folke/tokyonight.nvim'
   use 'andweeb/presence.nvim'
   use 'nvim-lualine/lualine.nvim'
   use {

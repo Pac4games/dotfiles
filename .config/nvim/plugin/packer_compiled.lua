@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/pac4/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
   ["nui.nvim"] = {
     loaded = true,
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/nui.nvim",
@@ -183,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/pac4/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/pac4/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 

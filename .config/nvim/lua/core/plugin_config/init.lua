@@ -1,7 +1,7 @@
 require("core.plugin_config.treesitter")
 require("core.plugin_config.42header")
 require("core.plugin_config.neotree")
-require("core.plugin_config.nightfox")
+require("core.plugin_config.tokyonight")
 require("core.plugin_config.autopairs")
 require("core.plugin_config.lualine")
 require("core.plugin_config.telescope")
