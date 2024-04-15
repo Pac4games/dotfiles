@@ -5,7 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Path for norminette and other python modules (only necessary on non-42 computers)
-# export PATH=$PATH:/home/pac4/.local/bin/
+# export PATH=$PATH:$HOME/.local/bin/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,16 +102,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Aliases for 42 computers
 alias norm="bash ~/.myscripts/norm.sh"
 alias gccmoul="gcc -Wall -Wextra -Werror"
 alias ccmoul="cc -Wall -Wextra -Werror"
-alias nvim="~/Applications/nvim.appimage"
+# alias nvim="~/Applications/nvim.appimage"
 alias nv=nvim
-alias neofetch="bash ~/.myscripts/neofetch --ascii ~/.config/42ascii"
-alias sl="/nfs/homes/paugonca/.myscripts/sl"
+# alias neofetch="bash ~/.myscripts/neofetch --ascii ~/.config/42ascii"
+# alias sl="$HOME/.myscripts/sl"
 
 neofetch
-
-alias francinette=/nfs/homes/paugonca/francinette/tester.sh
-alias fr=francinette
-alias paco=/nfs/homes/paugonca/francinette/tester.sh
