@@ -20,6 +20,11 @@ Tokyonight:
 ![image](https://github.com/Pac4games/dotfiles/assets/96696321/b6bbbe8c-11a2-40dc-972d-b36d411fa4cf)
 ![image](https://github.com/Pac4games/dotfiles/assets/96696321/5f112837-ca44-43bd-ba4a-6d1904d06fb9)
 
+Skeuos:
+
+![it's clOVER](https://github.com/Pac4games/dotfiles/assets/96696321/35887a5e-2c1f-4212-b4d6-3ae6ca67e3cb)
+![we're ceroBACK](https://github.com/Pac4games/dotfiles/assets/96696321/2fc5a82d-46cc-4017-8dbc-f32a18ab29b4)
+![juandice](https://github.com/Pac4games/dotfiles/assets/96696321/f3648488-9454-4161-8763-5926c364fc6a)
 
 # Neovim config installation
 Please note that due to some changes in the plugins themselves this config currently works better with Neovim 0.8.3.
