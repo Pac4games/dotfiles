@@ -33,7 +33,7 @@ As of the last rewrite, the "Plug" plugin manager has been replaced with "Packer
 
 After Packer finished its installation, follow these steps:
 - Use `:PackerSync` to make sure all the plugins get installed correctly;
-- Reopen Neovim, then type `:Mason` to open the Mason menu. This will allow you to easily manage your installed LSP's (language server protocols), needed by `nvim-cmp`, that will provide you with code autocompletion inside Neovim, as long with real-time warnings and errors in your code;
+- Reopen Neovim, then type `:Mason` to open the Mason menu. This will allow you to easily manage your installed LSP's (language server protocols), needed by `nvim-cmp`, that will provide you with code autocompletion inside Neovim, as long with real-time warnings and errors in your code. By default, this configuration will automatically install the C and Lua LSP's;
 - Reopen Neovim again, and do `:TSInstall X` to install the parser for the languages that you want, with "X" being the name of the language (for example, `:TSInstall cpp` will install the C++ parser). This is just basically a richer syntax highlighting than Neovim offers by default.
 
 And you're done!
