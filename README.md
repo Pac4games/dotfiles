@@ -60,5 +60,3 @@ Some other dependencies are included in order to make this configuration properl
 # Final notes
 
 I decided to do this recent rewrite of my configuration following [these tutorials](https://www.youtube.com/playlist?list=PLsz00TDipIffxsNXSkskknolKShdbcALR) in order to increase the efficiency of my workflow while learning more about Neovim and the Lua programmig language, seeing that I had only written configurations for both Vim and Neovim using vimscript, and I have to say I'm really satisfied with the result, totally worth the time invested.
-
-Thanks for using my dotfiles!
