@@ -18,10 +18,12 @@ echo \
 apt-get update
 
 # Install the necessary packages
-apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
+
+# Enable the Docker service
+sudo systemctl enable --now docker
 
 # Add the current user to the Docker group
 usermod -aG docker $USER
 
-# Enable the Docker service
-sudo systemctl enable --now docker
+echo "\n\nDocker setup complete, please reboot to apply changes"
