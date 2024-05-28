@@ -59,6 +59,12 @@
       - file: tools-report-bug.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/builder-sdk.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: applications-development.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/builder-todo.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1226,6 +1232,12 @@
       - file: text-plain.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- actions/view-piechart.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: office-chart-pie.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - actions/view-pin.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -1242,6 +1254,12 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: layer-visible-on.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-ringschart.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: office-chart-ring.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/view-sidebar-start.svg:
@@ -1275,6 +1293,12 @@
     license: LGPL-3.0-or-later
     based_on:
       - file: text-formatting.svg
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
+- actions/view-treemap.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: office-chart-bar-percentage.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
 - actions/view-wrapped-rtl.svg:
@@ -2162,6 +2186,12 @@
       - file: server-database.svgz
         url: https://github.com/KDE/oxygen-icons
         license: LGPL-3.0-or-later
+- apps/steam.svg:
+    license: LGPL-3.0-or-later
+    based_on:
+      - file: clock.svgz
+        url: https://github.com/KDE/oxygen-icons
+        license: LGPL-3.0-or-later
 - apps/synaptic.svg:
     license: LGPL-3.0-or-later
     based_on:
@@ -2357,12 +2387,6 @@
         license: LGPL-3.0-or-later
 - categories/emoji-nature.svg:
     license: LGPL-2.0-or-later or CC-BY-SA-4.0
-- categories/emoji-objects.svg:
-    license: LGPL-3.0-or-later
-    based_on:
-      - file: help-hint.svgz
-        url: https://github.com/KDE/oxygen-icons
-        license: LGPL-3.0-or-later
 - categories/emoji-people.svg:
     license: LGPL-3.0-or-later
     based_on:
