@@ -6,6 +6,7 @@ require'nvim-treesitter.configs'.setup {
 		'vim',
 		'bash'
 	},
+	auto_install = true,
 	highlight = {
 		enable = true
 	},
