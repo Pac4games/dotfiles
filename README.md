@@ -27,8 +27,6 @@ Skeuos:
 ![juandice](https://github.com/Pac4games/dotfiles/assets/96696321/f3648488-9454-4161-8763-5926c364fc6a)
 
 # Neovim config installation
-Please note that due to some changes in the plugins themselves this config currently works better with Neovim 0.8.3.
-
 As of the last rewrite, the "Plug" plugin manager has been replaced with "Packer" for more efficient and clean plugin management, and as a result there is no need to manually install the plugin manager since it will be installed right after you open Neovim with this config for the first time.
 
 After Packer finished its installation, follow these steps:
@@ -54,6 +52,7 @@ And you're done!
 - [`mason.nvim`](https://github.com/williamboman) - LSP package manager.
 - [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp) - Autocompletion for Neovim.
 - [`presence.nvim`](https://github.com/andweeb/presence.nvim) - Discord rich presence.
+- [`vim-godot`](https://github.com/habamax/vim-godot) - Utilities for using Godot with Vim.
 
 Some other dependencies are included in order to make this configuration properly work.
 
