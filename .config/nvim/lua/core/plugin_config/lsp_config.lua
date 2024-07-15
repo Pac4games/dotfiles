@@ -20,3 +20,17 @@ require'py_lsp'.setup {
   host_python = "/path/to/python/bin",
   default_venv_name = ".venv" -- For local venv
 }
+
+-- For the Godot game engine (requires Godot to be running to work)
+require ("lspconfig").gdscript.setup {
+  on_attach = function (client)
+    local _notify = client.notify
+    client.notify = function (method, params)
+      if method == 'textDocument/didClose' then
+          -- Godot doesn't implement didClose yet
+          return
+      end
+      _notify(method, params)
+    end
+  end
+}
