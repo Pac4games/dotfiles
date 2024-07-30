@@ -1,4 +1,7 @@
 vim.o.termguicolors = true
-vim.cmd("colorscheme midnight")
+require('onedark').setup {
+	style = 'cool'
+}
+require('onedark').load()
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
 vim.cmd("let &fcs='eob: '")

@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'dasupradyumna/midnight.nvim'
+  use 'navarasu/onedark.nvim'
   use 'andweeb/presence.nvim'
   use 'nvim-lualine/lualine.nvim'
   use {
