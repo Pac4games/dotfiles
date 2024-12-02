@@ -20,7 +20,7 @@ And you're done!
 - [`nvim-autopairs`](https://github.com/windwp/nvim-autopairs) - Autopairing for Neovim.
 - [`indent-blankline.nvim`](https://github.com/lukas-reineke/indent-blankline.nvim) - Shows an indentation line to make it look cleaner.
 - [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter) - Better syntax highlighting for Neovim.
-- [`nvim-ts-rainbow`](https://github.com/p00f/nvim-ts-rainbow) - Rainbow paratheses addon for treesitter.
+- [`nvim-ts-rainbow`](https://github.com/p00f/nvim-ts-rainbow) - Rainbow parathesis addon for treesitter.
 - [`lualine.nvim`](https://github.com/nvim-lualine/lualine.nvim) - Very customizable airline.
 - [`telescope.nivm`](https://github.com/nvim-telescope/telescope.nvim) - File finder (I don't personally use it but it might suit your taste).
 - [`mason.nvim`](https://github.com/williamboman) - LSP package manager.
