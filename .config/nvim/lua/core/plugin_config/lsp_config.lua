@@ -4,6 +4,7 @@ require("mason-lspconfig").setup({
 	ensure_installed = { 
 		"lua_ls",
 		"clangd",
+		"gopls",
 	},
 })
 
@@ -37,4 +38,17 @@ require ("lspconfig").gdscript.setup {
   end
 }
 
-require("lspconfig").gopls.setup({})
+local util = require("lspconfig/util")
+require("lspconfig").gopls.setup {
+  cmd = {"gopls"},
+  filetypes = {"go", "gomod", "gowork", "gotmpl"},
+  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
+  capabilities = capabilities,  -- required for completion
+  settings = {
+    gopls = {
+      completeUnimported = true,
+      usePlaceholders = true,
+      analyses = { unusedparams = true },
+    },
+  },
+}
