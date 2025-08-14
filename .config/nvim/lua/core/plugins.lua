@@ -29,9 +29,9 @@ return require('packer').startup(function(use)
   }
   use 'p00f/nvim-ts-rainbow'
   use {
-    'nvim-telescope/telescope.nvim',
-	tag = '0.1.0',
-	requires = { {'nvim-lua/plenary.nvim'} }
+    'nvim-telescope/telescope.nvim', tag = '0.1.8',
+	requires = { {'nvim-lua/plenary.nvim'},
+	             {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'} }
   }
   use {
 	'williamboman/mason.nvim',
@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
 	'neovim/nvim-lspconfig',
   }
   use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
+  use {'hrsh7th/cmp-nvim-lsp', commit = 'a8912b88ce488f411177fc8aed358b04dc246d7b'}
   use 'HallerPatrick/py_lsp.nvim'
   use {
 	'L3MON4D3/LuaSnip',
