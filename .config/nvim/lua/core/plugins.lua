@@ -25,7 +25,7 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use {
 	'nvim-treesitter/nvim-treesitter',
-	requires = { {'MunifTanjim/nui.nvim'} },
+	requires = { {'MunifTanjim/nui.nvim'} }
   }
   use 'p00f/nvim-ts-rainbow'
   use {
