@@ -10,4 +10,5 @@ fish_add_path -a $HOME/local/.bin
 
 starship init fish | source
 
+printf "✱ Greetings.\n\n"
 fastfetch
