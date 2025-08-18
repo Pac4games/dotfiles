@@ -1,0 +1,18 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+[character]
+success_symbol = '[╰─ ✦](bold yellow)'
+
+[git_branch]
+symbol = "\ue725 "
+
+[package]
+symbol = "\uf487 "
+
+[c]
+symbol = "\ue61e "
+
+[python]
+symbol = "\ue606 "
