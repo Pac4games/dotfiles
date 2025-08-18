@@ -1,7 +1,7 @@
 require("mason").setup()
 
 require("mason-lspconfig").setup({
-	ensure_installed = { 
+	ensure_installed = {
 		"lua_ls",
 		"clangd",
 	},
@@ -97,3 +97,10 @@ require("lspconfig").helm_ls.setup {
     }
   }
 }
+
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*/templates/*.yaml",
+  callback = function()
+    vim.bo.filetype = "helm"
+  end,
+})

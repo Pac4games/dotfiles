@@ -46,6 +46,7 @@ return require('packer').startup(function(use)
 	requires = { {'rafamadriz/friendly-snippets'} },
   }
   use { 'habamax/vim-godot', event = 'VimEnter' }
+  use "towolf/vim-helm"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
