@@ -3,14 +3,19 @@
 add_newline = true
 
 [time]
-time_format = "%T"
-format = '╰[\($time\)]($style)'
-style = "bright-white"
 disabled = false
+time_format = "%T"
+format = '[╰\($time\)─ ]($style)'
+style = "bright-white"
+
+[status]
+disabled = false
+style = "bold red"
+format= '[\[$status\] ]($style)'
 
 [character]
-success_symbol = '[─ ✦](bold yellow)'
-error_symbol = "[─ 󰋔](bold red)"
+success_symbol = '[✦](bold yellow)'
+error_symbol = "[󰋔](bold red)"
 
 [git_branch]
 symbol = " "
@@ -31,5 +36,6 @@ format = """
 $time\
 $directory\
 $git_branch $git_status\
+$status\
 $character
-""""
+"""
