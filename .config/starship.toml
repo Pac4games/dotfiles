@@ -2,9 +2,15 @@
 
 add_newline = true
 
+[time]
+time_format = "%T"
+format = '╰[\($time\)]($style)'
+style = "bright-white"
+disabled = false
+
 [character]
-success_symbol = '[╰─ ✦](bold yellow)'
-error_symbol = "[╰─ 󰋔](bold red)"
+success_symbol = '[─ ✦](bold yellow)'
+error_symbol = "[─ 󰋔](bold red)"
 
 [git_branch]
 symbol = " "
@@ -20,3 +26,10 @@ symbol = "󰌠 "
 
 [golang]
 symbol = " "
+
+format = """
+$time\
+$directory\
+$git_branch $git_status\
+$character
+""""
