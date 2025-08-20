@@ -35,7 +35,8 @@ symbol = " "
 format = """
 $time\
 $directory\
-$git_branch $git_status\
+$git_branch\
+$git_status\
 $status\
-$character
+$character\
 """
