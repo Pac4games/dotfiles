@@ -6,7 +6,7 @@ end
 alias nvim="$HOME/Applications/nvim.appimage"
 alias nv=nvim
 
-fish_add_path -a $HOME/local/.bin
+fish_add_path -a "$HOME/.local/bin"
 
 starship init fish | source
 
