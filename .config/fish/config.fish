@@ -10,7 +10,7 @@ alias nvim="$HOME/Applications/nvim.appimage"
 alias nv=nvim
 
 alias gp="git push"
-alias gcam="git add -A && git commit"
+alias gac="git add -A && git commit"
 alias gc="git checkout"
 
 # Loading starship prompt
