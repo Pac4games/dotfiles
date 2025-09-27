@@ -2,6 +2,21 @@
 
 add_newline = true
 
+[username]
+show_always = true
+style_user = "bold blue"
+style_root = "bold red"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bold blue"
+format = "[@$hostname]($style) | "
+
+[directory]
+style = "bold cyan"
+format = "[  $path]($style) "
+
 [time]
 disabled = false
 time_format = "%T"
@@ -26,6 +41,10 @@ symbol = "󰏖 "
 [c]
 symbol = " "
 
+[dotnet]
+symbol = " "
+format = 'via [$symbol($version )]($style)'
+
 [python]
 symbol = "󰌠 "
 
@@ -33,6 +52,8 @@ symbol = "󰌠 "
 symbol = " "
 
 format = """
+$username\
+$hostname\
 $time\
 $directory\
 $git_branch\
