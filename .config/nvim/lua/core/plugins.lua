@@ -23,11 +23,11 @@ return require('packer').startup(function(use)
   use 'navarasu/onedark.nvim'
   use 'andweeb/presence.nvim'
   use 'nvim-lualine/lualine.nvim'
+  use 'MunifTanjim/nui.nvim'
   use {
-	'nvim-treesitter/nvim-treesitter',
-	requires = { {'MunifTanjim/nui.nvim'} }
+    'nvim-treesitter/nvim-treesitter',
+    tag = "v0.10.0"
   }
-  use 'p00f/nvim-ts-rainbow'
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	requires = { {'nvim-lua/plenary.nvim'},
@@ -36,7 +36,7 @@ return require('packer').startup(function(use)
   use {
 	'williamboman/mason.nvim',
 	{'williamboman/mason-lspconfig.nvim', tag = "v1.32.0"},
-	'neovim/nvim-lspconfig',
+	{'neovim/nvim-lspconfig', tag = "v2.5.0"},
   }
   use 'hrsh7th/nvim-cmp'
   use {'hrsh7th/cmp-nvim-lsp', commit = 'a8912b88ce488f411177fc8aed358b04dc246d7b'}
